@@ -24,7 +24,7 @@ var app = app || {};
             });
         },
 
-        // Toggle the priority state of this todo item. 
+        // Toggle the `priority` state of this todo item. 
         priority: function() {
             this.save({
                 priority: !this.get('priority')
